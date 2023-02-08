@@ -3,9 +3,9 @@ import MIcon from "../../assets/menu-icon.png";
 import MenIcon from "../../assets/Rectangle 16.png";
 
 export default function Float() {
-    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleMenu, setToggleMenu] = useState(true)
     const [menu, setMenu] = useState("grid")
-    const [changeImg, setChangeImg] = useState(false);
+    const [changeImg, setChangeImg] = useState(false)
 
     return (
         <div className={`${toggleMenu ? "w-[306px]" : "w-[56px]"}  transition-all pb-5`}>

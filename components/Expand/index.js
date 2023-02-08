@@ -5,7 +5,7 @@ import CloseIcon from "../../assets/Vector.png";
 
 export default function Expand() {
 
-  const [toggleMenu, setToggleMenu] = useState(false)
+  const [toggleMenu, setToggleMenu] = useState(true)
   const [name, setName] = useState("Menu")
 
   return (
