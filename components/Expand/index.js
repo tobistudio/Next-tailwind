@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import MIcon from "../../assets/menu-icon.png";
+import CloseIcon from "../../assets/Vector.png";
 
 
 export default function Expand() {
@@ -22,7 +23,8 @@ export default function Expand() {
             <div className='bg-white/25 cursor-pointer rounded-[38px] p-[10px] w-full min-w-[40px] h-[40px] flex justify-start items-center relative' onClick={() => setToggleMenu(!toggleMenu)}>
               <img src={MIcon.src} className="w-[20px] h-[20px]" />
               <div className='ml-[10px] text-center text-white text-lg whitespace-nowrap'>{ name }</div>
-              <div className="border-none text-white text-2xl absolute right-5">X</div>
+              <div className="border-none text-white text-2xl absolute right-5"></div>
+              <img src={  CloseIcon.src } className="w-[15px] h-[15px] absolute right-5" />
             </div>
             
         </div>
