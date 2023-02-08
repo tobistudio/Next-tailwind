@@ -1,6 +1,4 @@
-
-import { useState } from 'react'
-import styles from '../styles/Home.module.css'
+import React from 'react';
 import Floating from '../components/Float'
 import Expand from '../components/Expand'
 
